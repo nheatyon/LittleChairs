@@ -1,0 +1,7 @@
+prefix: "&aLittle&6Chairs &e> "
+occupied_msg: "&cChair Occupied!"
+occupied_sound: "ENTITY_VILLAGER_HURT"
+enable_sounds: true
+reload_msg: "&bConfiguration Reloaded!"
+no_permission: "&cPermission Denied!"
+invalid_sound: "&cThe sound for the chairs was not found!"
