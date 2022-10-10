@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to LittleChairs 👋</h1>
+<h1 align="center">LittleChairs 🪑</h1>
 <p>
   <a href="https://github.com/nheatyon/LittleChairs/blob/main/LICENSE">
     <img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
