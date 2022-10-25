@@ -14,7 +14,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import revxrsal.commands.annotation.Command;
 import revxrsal.commands.annotation.Description;
 import revxrsal.commands.bukkit.BukkitCommandActor;
-import revxrsal.commands.bukkit.core.BukkitHandler;
+import revxrsal.commands.bukkit.BukkitCommandHandler;
 import revxrsal.commands.command.CommandActor;
 import revxrsal.commands.exception.NoPermissionException;
 import revxrsal.commands.exception.TooManyArgumentsException;
@@ -28,7 +28,7 @@ public final class InitializerClass extends JavaPlugin {
     @Getter private static VersionWrapper wrapper;
 
     private void setupCommandManager() {
-        BukkitHandler handler = new BukkitHandler(this);
+        BukkitCommandHandler handler = BukkitCommandHandler.create(this);
         CommandsManager commandsManager = new CommandsManager();
         handler.register(commandsManager);
         BiConsumer<CommandActor, String> consumer = (actor, message) ->
