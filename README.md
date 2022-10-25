@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to LittleChairs 👋</h1>
+<h1 align="center">LittleChairs 🪑</h1>
 <p>
   <a href="https://github.com/nheatyon/LittleChairs/blob/main/LICENSE">
     <img alt="license" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
@@ -23,7 +23,7 @@
   <img src="https://i.imgur.com/1NjcXFH.png" />
 </p>
 
-<i>The plugin will work as soon as it is inserted on the server and llows you to sit on <b>any type of stairs</b>.<br/>
+<i>The plugin will work as soon as it is inserted on the server and allows you to sit on <b>any type of stairs</b>.<br/>
 The only executable command is the one that allows you to reload the configuration file, containing various messages that you can <b><i><u>customize</u></i></b>.<br/>
 It is also possible to change the sounds that are played when a chair is occupied<br/></i>
 
